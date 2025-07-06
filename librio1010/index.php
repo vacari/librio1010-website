@@ -6,6 +6,7 @@ $pageDescription = "Studio mobiliado 100% novo na Vila Mariana com todas as foto
 $pageKeywords = "studio mobiliado vila mariana, fotos detalhes apartamento, hospedagem próxima UNIFESP, aluguel temporário vila mariana, short stay paulista ibirapuera, airbnb perto metrô ana rosa, apartamento mobiliado SP congressos, moradia residência médica SP, características completas studio";
 $pageImage = "https://vivavilamariana.com.br/librio1010/assets/images/hero-studio.jpg";
 $currentPage = "home";
+$include_modal = true;
 $customCSS = '
 /* Estrutura padrão para todas as seções */
 .section-content {
@@ -17,9 +18,13 @@ $customCSS = '
 
 .section-image {
     width: 100%;
+    max-width: 80vh;
+    max-height: 80vh;
+    margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    aspect-ratio: 1/1;
 }
 
     .section-image img {
@@ -28,8 +33,8 @@ $customCSS = '
         object-fit: cover;
         display: block;
         transition: transform 0.3s ease;
-        max-height: 60vh;
-        max-width: 60vh;
+        max-height: 80vh;
+        max-width: 80vh;
         margin: 0 auto;
     }
 
@@ -145,6 +150,11 @@ $customCSS = '
         }
         
         /* Imagens quadradas também no mobile */
+        .section-image {
+            max-width: 70vw;
+            max-height: 70vw;
+        }
+        
         .section-image img {
             aspect-ratio: 1/1;
             max-height: 70vw;
@@ -194,12 +204,23 @@ $customCSS = '
     }
 
     @media (max-width: 1024px) and (min-width: 769px) {
+        .section-image {
+            max-width: 70vh;
+            max-height: 70vh;
+        }
+        
         .section-image img {
-            max-height: 60vh;
+            max-height: 70vh;
+            max-width: 70vh;
         }
     }
     
     @media (max-width: 480px) {
+        .section-image {
+            max-width: 80vw;
+            max-height: 80vw;
+        }
+        
         .section-image img {
             max-height: 80vw;
             max-width: 80vw;
@@ -694,6 +715,7 @@ include 'includes/head.php';
     </section>
 
     <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/modal.php'; ?>
     <?php include 'includes/scripts.php'; ?>
 </body>
 </html> 

@@ -1558,6 +1558,7 @@ html {
     .modal-content {
         width: 95%;
         max-width: none;
+        flex-direction: column;
     }
     
     .modal-close {
@@ -1568,10 +1569,23 @@ html {
         height: 40px;
     }
     
+    .modal-image {
+        margin-bottom: 0;
+        max-height: 75vh;
+    }
+    
     .modal-caption {
-        bottom: 10px;
+        position: static;
+        transform: none;
+        left: auto;
+        bottom: auto;
+        background: #000;
+        margin-top: 10px;
+        border-radius: 0;
+        max-width: 100%;
+        width: 100%;
+        padding: 15px 20px;
         font-size: 1rem;
-        padding: 8px 16px;
     }
 }
 
