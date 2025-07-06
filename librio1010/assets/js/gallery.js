@@ -246,4 +246,52 @@ window.addEventListener('load', function() {
     if (allTab) {
         allTab.click();
     }
+});
+
+// Modal functionality for gallery images
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalCaption = document.getElementById('modalCaption');
+    const modalClose = document.querySelector('.modal-close');
+    const galleryImages = document.querySelectorAll('.gallery-item img');
+    
+    // Open modal when clicking on gallery images
+    galleryImages.forEach(img => {
+        img.addEventListener('click', function() {
+            modal.style.display = 'block';
+            modalImage.src = this.src;
+            modalCaption.textContent = this.alt;
+            document.body.style.overflow = 'hidden';
+        });
+    });
+    
+    // Close modal events
+    modalClose.addEventListener('click', function() {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    });
+    
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    });
+    
+    // Close modal with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.style.display === 'block') {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    });
+    
+    // Close modal with back button on mobile
+    window.addEventListener('popstate', function() {
+        if (modal.style.display === 'block') {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    });
 }); 
