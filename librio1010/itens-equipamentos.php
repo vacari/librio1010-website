@@ -1,92 +1,64 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itens e Equipamentos - Studio Librio 1010</title>
-    <meta name="description" content="Inventário completo dos itens, equipamentos e utensílios do Studio Librio 1010. Veja tudo que está incluso para sua estadia.">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="Logotipo-Librio.jpg?v=2">
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        .inventory-section {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
-            margin-top: 2.5rem;
-        }
-        .inventory-card {
-            background: #fff;
-            border-radius: 16px;
-            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-            padding: 2rem 2rem 1.5rem 2rem;
-            max-width: 350px;
-            min-width: 260px;
-            flex: 1 1 300px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-        .inventory-icon {
-            font-size: 2.2rem;
-            margin-bottom: 0.7rem;
-        }
-        .inventory-card h3 {
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
-            color: var(--accent-color, #FF385C);
-        }
-        .inventory-card ul {
-            padding-left: 1.2rem;
-            margin-bottom: 0;
-        }
-        .inventory-card li {
-            margin-bottom: 0.5rem;
-            color: #444;
-            font-size: 1.05rem;
-        }
-        @media (max-width: 900px) {
-            .inventory-section { flex-direction: column; align-items: center; }
-            .inventory-card { max-width: 100%; width: 100%; }
-        }
-    </style>
-</head>
+<?php 
+$pageTitle = "Itens e Equipamentos - Studio Librio 1010";
+$pageDescription = "Inventário completo dos itens, equipamentos e utensílios do Studio Librio 1010. Veja tudo que está incluso para sua estadia.";
+$pageKeywords = "equipamentos, itens, inventário, utensílios, cozinha, banheiro, quarto, studio, librio 1010";
+$pageImage = "assets/images/Logotipo-Librio.jpg";
+$currentPage = "equipamentos";
+$customCSS = '
+.inventory-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.inventory-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 2rem 2rem 1.5rem 2rem;
+    max-width: 350px;
+    min-width: 260px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.inventory-icon {
+    font-size: 2.2rem;
+    margin-bottom: 0.7rem;
+}
+.inventory-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color, #FF385C);
+}
+.inventory-card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+}
+.inventory-card li {
+    margin-bottom: 0.5rem;
+    color: #444;
+    font-size: 1.05rem;
+}
+@media (max-width: 900px) {
+    .inventory-section { flex-direction: column; align-items: center; }
+    .inventory-card { max-width: 100%; width: 100%; }
+}
+';
+include 'includes/head.php'; 
+?>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <a href="index.php">
-                        <img src="Logotipo-Librio-Photoroom_so_circulo.png" alt="Librio Vila Mariana" style="height:60px;vertical-align:middle;">
-                    </a>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="index.php" class="nav-link">Home</a></li>
-                    <li><a href="detalhes.php" class="nav-link">Detalhes</a></li>
-                    <li><a href="itens-equipamentos.php" class="nav-link active">Equipamentos</a></li>
-                    <li><a href="galeria.php" class="nav-link">Galeria</a></li>
-                    <li><a href="areas-comuns.php" class="nav-link">Áreas Comuns</a></li>
-                    <li><a href="bairro.php" class="nav-link">O Bairro</a></li>
-                    <li><a href="contato.php" class="nav-link">Contato</a></li>
-                </ul>
-                <div class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include 'includes/header.php'; ?>
+    
     <section class="page-header">
         <div class="container">
             <h1>Itens e Equipamentos</h1>
             <p>Inventário completo do Studio Librio 1010: veja tudo que está incluso para sua estadia confortável e prática.</p>
         </div>
     </section>
+    
     <section class="features-section">
         <div class="container">
             <div class="inventory-section">
@@ -190,7 +162,7 @@
         </div>
     </section>
 
-    <!-- JavaScript para menu mobile -->
-    <script src="assets/js/main.js"></script>
+    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/scripts.php'; ?>
 </body>
 </html> 

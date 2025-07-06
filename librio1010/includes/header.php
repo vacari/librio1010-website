@@ -9,7 +9,7 @@
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'index') ? ' active' : ''; ?>">Home</a></li>
-                    <li><a href="itens-equipamentos.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'itens-equipamentos') ? ' active' : ''; ?>">Equipamentos</a></li>
+                    <li><a href="itens-equipamentos.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'equipamentos') ? ' active' : ''; ?>">Equipamentos</a></li>
                     <li><a href="galeria.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'galeria') ? ' active' : ''; ?>">Galeria</a></li>
                     <li><a href="areas-comuns.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'areas-comuns') ? ' active' : ''; ?>">Áreas Comuns</a></li>
                     <li><a href="bairro.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'bairro') ? ' active' : ''; ?>">O Bairro</a></li>

@@ -23,6 +23,9 @@ include 'includes/head.php';
     <section class="common-area-section">
         <div class="container">
             <div class="area-grid">
+                <div class="area-image">
+                    <img src="imagens_condominio/rooftop piscina 20250121_112901.jpg" alt="Rooftop com piscina" loading="lazy">
+                </div>
                 <div class="area-content">
                     <h2>Rooftop com Piscina</h2>
                     <p>Desfrute de um rooftop exclusivo com piscina e vista panorâmica da Vila Mariana. O local perfeito para relaxar, tomar sol ou organizar encontros com amigos.</p>
@@ -45,9 +48,6 @@ include 'includes/head.php';
                         </div>
                     </div>
                 </div>
-                <div class="area-image">
-                    <img src="imagens_condominio/rooftop piscina 20250121_112901.jpg" alt="Rooftop com piscina" loading="lazy">
-                </div>
             </div>
         </div>
     </section>
@@ -55,7 +55,7 @@ include 'includes/head.php';
     <!-- Academia Section -->
     <section class="common-area-section light">
         <div class="container">
-            <div class="area-grid reverse">
+            <div class="area-grid">
                 <div class="area-image">
                     <img src="imagens_condominio/academia01 20250701_111717.jpg" alt="Academia do condomínio" loading="lazy">
                 </div>
@@ -89,6 +89,9 @@ include 'includes/head.php';
     <section class="common-area-section">
         <div class="container">
             <div class="area-grid">
+                <div class="area-image">
+                    <img src="imagens_condominio/coworking01 20250701_103815.jpg" alt="Espaço coworking" loading="lazy">
+                </div>
                 <div class="area-content">
                     <h2>Espaço Coworking</h2>
                     <p>Trabalhe com conforto e produtividade em nosso espaço coworking. Ambiente profissional com internet de alta velocidade e frigobar.</p>
@@ -111,9 +114,6 @@ include 'includes/head.php';
                         </div>
                     </div>
                 </div>
-                <div class="area-image">
-                    <img src="imagens_condominio/coworking01 20250701_103815.jpg" alt="Espaço coworking" loading="lazy">
-                </div>
             </div>
         </div>
     </section>
@@ -121,7 +121,7 @@ include 'includes/head.php';
     <!-- Churrasqueira Section -->
     <section class="common-area-section light">
         <div class="container">
-            <div class="area-grid reverse">
+            <div class="area-grid">
                 <div class="area-image">
                     <img src="imagens_condominio/churrasqueira01 20250701_110826.jpg" alt="Churrasqueira" loading="lazy">
                 </div>
@@ -155,6 +155,9 @@ include 'includes/head.php';
     <section class="common-area-section">
         <div class="container">
             <div class="area-grid">
+                <div class="area-image">
+                    <img src="imagens_condominio/lavanderia01 20250701_111547.jpg" alt="Lavanderia" loading="lazy">
+                </div>
                 <div class="area-content">
                     <h2>Lavanderia</h2>
                     <p>Facilite sua rotina com nossa lavanderia equipada. Máquinas modernas para lavagem e secagem de roupas.</p>
@@ -177,9 +180,6 @@ include 'includes/head.php';
                         </div>
                     </div>
                 </div>
-                <div class="area-image">
-                    <img src="imagens_condominio/lavanderia01 20250701_111547.jpg" alt="Lavanderia" loading="lazy">
-                </div>
             </div>
         </div>
     </section>
@@ -187,7 +187,7 @@ include 'includes/head.php';
     <!-- Playground Section -->
     <section class="common-area-section light">
         <div class="container">
-            <div class="area-grid reverse">
+            <div class="area-grid">
                 <div class="area-image">
                     <img src="imagens_condominio/playgroung01 horta 20250701_110809.jpg" alt="Playground e horta" loading="lazy">
                 </div>
@@ -221,6 +221,9 @@ include 'includes/head.php';
     <section class="common-area-section">
         <div class="container">
             <div class="area-grid">
+                <div class="area-image">
+                    <img src="imagens_condominio/recepcao01 20250701_103838.jpg" alt="Recepção" loading="lazy">
+                </div>
                 <div class="area-content">
                     <h2>Recepção e Saguão</h2>
                     <p>Recepção elegante e saguão de entrada espaçoso. Ambiente acolhedor para receber visitas e moradores.</p>
@@ -242,9 +245,6 @@ include 'includes/head.php';
                             <p>Controle de acesso</p>
                         </div>
                     </div>
-                </div>
-                <div class="area-image">
-                    <img src="imagens_condominio/recepcao01 20250701_103838.jpg" alt="Recepção" loading="lazy">
                 </div>
             </div>
         </div>

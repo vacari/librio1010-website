@@ -59,5 +59,4 @@ echo Arquivos copiados para: %TARGET_ROOT% e %TARGET_DIR%
 echo.
 echo Para acessar o site:
 echo https://vivavilamariana.com.br/librio1010
-echo.
-pause 
+echo. 
