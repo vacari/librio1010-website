@@ -1,0 +1,49 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+*.cache
+
+# Configurações de desenvolvimento
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependências
+vendor/
+node_modules/
+
+# Build/Deploy
+dist/
+build/
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Arquivos sensíveis (descomente se necessário)
+# config.php
+# database.php
+
+# Deploy scripts (manter apenas o necessário)
+# deploy.bat 

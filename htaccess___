@@ -1,0 +1,4 @@
+# Redireciona tudo da raiz para /www/vivavilamariana/librio1010 mantendo o restante da URL
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/www/vivavilamariana/librio1010(/|$)
+RewriteRule ^(.*)$ /www/vivavilamariana/librio1010/$1 [L,R=301] 

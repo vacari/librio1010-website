@@ -1,0 +1,6 @@
+0001;Implementar sistema de versionamento
+0002;Correção botão Assistir Vídeo - posição e alternância texto
+0003;Botão Silenciar voltou for bottom - problema dobra mobile
+0004;Forçar position relative no hero-center com !important
+0005;Centralizar botão Silenciar horizontalmente no mobile
+0006;Corrigir header página Equipamentos - adicionar hambúrguer mobile 
