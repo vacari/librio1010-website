@@ -1559,6 +1559,7 @@ html {
         width: 95%;
         max-width: none;
         flex-direction: column;
+        align-items: stretch;
     }
     
     .modal-close {
@@ -1572,20 +1573,23 @@ html {
     .modal-image {
         margin-bottom: 0;
         max-height: 75vh;
+        order: 1;
     }
     
     .modal-caption {
-        position: static;
-        transform: none;
-        left: auto;
-        bottom: auto;
-        background: #000;
-        margin-top: 10px;
-        border-radius: 0;
-        max-width: 100%;
-        width: 100%;
-        padding: 15px 20px;
-        font-size: 1rem;
+        position: static !important;
+        transform: none !important;
+        left: auto !important;
+        bottom: auto !important;
+        background: #000 !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 15px 20px !important;
+        font-size: 1rem !important;
+        order: 2;
+        text-align: center !important;
     }
 }
 
