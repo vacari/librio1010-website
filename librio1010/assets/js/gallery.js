@@ -4,34 +4,99 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const galleryTabs = document.querySelectorAll('.gallery-tab');
     const galleryItems = document.querySelectorAll('.gallery-item');
+    const galleryCounter = document.getElementById('gallery-counter');
     
     console.log('Found gallery tabs:', galleryTabs.length);
     console.log('Found gallery items:', galleryItems.length);
     
+    // Initialize counters
+    function updateCounters() {
+        const counts = {
+            all: galleryItems.length,
+            apartamento: document.querySelectorAll('[data-category="apartamento"]').length,
+            condominio: document.querySelectorAll('[data-category="condominio"]').length,
+            vista: document.querySelectorAll('[data-category="vista"]').length
+        };
+        
+        Object.keys(counts).forEach(category => {
+            const countElement = document.getElementById(`count-${category}`);
+            if (countElement) {
+                countElement.textContent = `(${counts[category]})`;
+            }
+        });
+    }
+    
+    // Update counter display
+    function updateGalleryStatus(category, visibleCount) {
+        const categoryNames = {
+            all: 'todas as fotos',
+            apartamento: 'fotos da área privativa',
+            condominio: 'fotos das áreas comuns',
+            vista: 'fotos de vistas'
+        };
+        
+        if (galleryCounter) {
+            galleryCounter.textContent = `Mostrando ${visibleCount} ${categoryNames[category] || 'fotos'}`;
+        }
+    }
+    
+    updateCounters();
+    
     galleryTabs.forEach(tab => {
         tab.addEventListener('click', function() {
             const category = this.getAttribute('data-category');
+            const filterLoading = document.getElementById('filter-loading');
             console.log('Filtering by category:', category);
+            
+            // Show loading indicator
+            if (galleryCounter) galleryCounter.style.display = 'none';
+            if (filterLoading) filterLoading.style.display = 'inline-block';
             
             // Remove active class from all tabs
             galleryTabs.forEach(t => t.classList.remove('active'));
             // Add active class to clicked tab
             this.classList.add('active');
             
-            // Filter gallery items
-            galleryItems.forEach(item => {
+            // Filter gallery items with smooth animation
+            galleryItems.forEach((item, index) => {
                 const itemCategory = item.getAttribute('data-category');
                 if (category === 'all' || itemCategory === category) {
+                    item.classList.remove('hidden');
                     item.style.display = 'block';
-                    item.style.animation = 'fadeIn 0.5s ease-in';
+                    // Staggered animation for better visual effect
+                    setTimeout(() => {
+                        item.style.animation = 'fadeIn 0.5s ease-in';
+                        item.style.opacity = '1';
+                        item.style.transform = 'scale(1)';
+                    }, index * 50);
                 } else {
-                    item.style.display = 'none';
+                    item.classList.add('hidden');
+                    item.style.opacity = '0';
+                    item.style.transform = 'scale(0.8)';
+                    setTimeout(() => {
+                        item.style.display = 'none';
+                    }, 300);
                 }
             });
             
-            // Log filtered items count
-            const visibleItems = document.querySelectorAll('.gallery-item[style*="display: block"], .gallery-item:not([style*="display: none"])');
-            console.log('Visible items after filter:', visibleItems.length);
+            // Count and update visible items
+            setTimeout(() => {
+                let visibleCount = 0;
+                galleryItems.forEach(item => {
+                    const itemCategory = item.getAttribute('data-category');
+                    if (category === 'all' || itemCategory === category) {
+                        visibleCount++;
+                    }
+                });
+                
+                // Hide loading and show counter
+                const filterLoading = document.getElementById('filter-loading');
+                if (filterLoading) filterLoading.style.display = 'none';
+                if (galleryCounter) galleryCounter.style.display = 'inline-block';
+                
+                updateGalleryStatus(category, visibleCount);
+                console.log('Visible items after filter:', visibleCount);
+            }, 500);
         });
     });
     

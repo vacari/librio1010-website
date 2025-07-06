@@ -9,12 +9,22 @@ set SOURCE_ROOT=%~dp0
 set SOURCE_DIR=%~dp0librio1010
 set TARGET_ROOT=\\10.1.1.24\vivavilamariana
 set TARGET_DIR=\\10.1.1.24\vivavilamariana\librio1010
-:: Formatar data e hora para backup (garantir formato AAAAMMDD)
+:: Formatar data e hora para backup (garantir formato AAAAMMDD_HHMM)
 for /f "tokens=1-3 delims=/ " %%a in ("%date%") do set DD=%%a&set MM=%%b&set YYYY=%%c
-for /f "tokens=1-2 delims=: " %%a in ("%time%") do set HH=%%a&set MIN=%%b
-:: Remover espaços da hora
-set HH=%HH: =0%
-set MIN=%MIN: =0%
+for /f "tokens=1-3 delims=:. " %%a in ("%time%") do set HH=%%a&set MIN=%%b&set SEC=%%c
+
+:: Garantir 2 dígitos para todos os componentes
+if "%DD:~1,1%"=="" set DD=0%DD%
+if "%MM:~1,1%"=="" set MM=0%MM%
+if "%HH:~1,1%"=="" set HH=0%HH%
+if "%MIN:~1,1%"=="" set MIN=0%MIN%
+
+:: Remover espaços extras
+set DD=%DD: =%
+set MM=%MM: =%
+set HH=%HH: =%
+set MIN=%MIN: =%
+
 set BACKUP_DIR=\\10.1.1.24\vivavilamariana\backup_%YYYY%%MM%%DD%_%HH%%MIN%
 
 echo Source (raiz): %SOURCE_ROOT%

@@ -71,10 +71,16 @@
     <section class="gallery-nav">
         <div class="container">
             <div class="gallery-tabs">
-                <button class="gallery-tab active" data-category="all">Todas as Fotos</button>
-                <button class="gallery-tab" data-category="apartamento">Área Privativa</button>
-                <button class="gallery-tab" data-category="condominio">Áreas Comuns</button>
-                <button class="gallery-tab" data-category="vista">Vistas</button>
+                <button class="gallery-tab active" data-category="all">Todas as Fotos <span class="tab-count" id="count-all"></span></button>
+                <button class="gallery-tab" data-category="apartamento">Área Privativa <span class="tab-count" id="count-apartamento"></span></button>
+                <button class="gallery-tab" data-category="condominio">Áreas Comuns <span class="tab-count" id="count-condominio"></span></button>
+                <button class="gallery-tab" data-category="vista">Vistas <span class="tab-count" id="count-vista"></span></button>
+            </div>
+            <div class="gallery-status">
+                <span id="gallery-counter">Mostrando todas as fotos</span>
+                <div class="filter-loading" id="filter-loading" style="display: none;">
+                    <span>Filtrando...</span>
+                </div>
             </div>
         </div>
     </section>

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>Studio Novo – Metrô Ana Rosa & Ibirapuera | Vila Mariana, SP</title>
-    <meta name="description" content="Studio mobiliado novo na Vila Mariana, a 600m do metrô Ana Rosa e 1km do Parque Ibirapuera. Ideal para estudantes UNIFESP, residentes médicos, turistas e viajantes de negócios. Long stay e short stay. Rooftop com piscina, academia e coworking.">
-    <meta name="keywords" content="studio mobiliado vila mariana, hospedagem próxima UNIFESP, aluguel temporário vila mariana, short stay paulista ibirapuera, airbnb perto metrô ana rosa, apartamento mobiliado SP congressos, moradia residência médica SP">
+    <title>Studio Mobiliado Vila Mariana - Fotos, Detalhes e Características Completas | Librio 1010</title>
+    <meta name="description" content="Studio mobiliado 100% novo na Vila Mariana com todas as fotos, detalhes e características. Cozinha completa, Smart TV 50", estação de trabalho, cama queen, ar-condicionado. Próximo ao metrô Ana Rosa e Ibirapuera. Long stay e short stay.">
+    <meta name="keywords" content="studio mobiliado vila mariana, fotos detalhes apartamento, hospedagem próxima UNIFESP, aluguel temporário vila mariana, short stay paulista ibirapuera, airbnb perto metrô ana rosa, apartamento mobiliado SP congressos, moradia residência médica SP, características completas studio">
     <meta name="author" content="Viva Vila Mariana">
     <meta name="robots" content="index, follow">
     
@@ -93,8 +93,9 @@
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.php" class="nav-link active">Home</a></li>
-                    <li><a href="detalhes.php" class="nav-link">Detalhes</a></li>
-                    <li><a href="itens-equipamentos.php" class="nav-link">Equipamentos</a></li>
+                    <li><a href="#caracteristicas" class="nav-link">Características</a></li>
+                    <li><a href="#cozinha" class="nav-link">Cozinha</a></li>
+                    <li><a href="#quarto" class="nav-link">Quarto</a></li>
                     <li><a href="galeria.php" class="nav-link">Galeria</a></li>
                     <li><a href="areas-comuns.php" class="nav-link">Áreas Comuns</a></li>
                     <li><a href="bairro.php" class="nav-link">O Bairro</a></li>
@@ -172,28 +173,28 @@
                     <p>Rooftop com piscina, academia, coworking e espaço pet</p>
                 </div>
             </a>
-            <a href="detalhes.php#estudantes" class="highlight-img-card" style="background-image:url('imagens_arredores/ESPM_Global_Hall-scaled.jpg')">
+            <a href="#trabalho" class="highlight-img-card" style="background-image:url('imagens_arredores/ESPM_Global_Hall-scaled.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Ideal para Estudantes</h3>
                     <p>Próximo à UNIFESP, ESPM e outras universidades</p>
                 </div>
             </a>
-            <a href="detalhes.php#negocios" class="highlight-img-card" style="background-image:url('imagens_arredores/av_paulista_masp_pexels-beto-mendes-2643157-32423613.jpg')">
+            <a href="#trabalho" class="highlight-img-card" style="background-image:url('imagens_arredores/av_paulista_masp_pexels-beto-mendes-2643157-32423613.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Perfeito para Negócios</h3>
                     <p>Escritório compacto e Wi-Fi para trabalho remoto</p>
                 </div>
             </a>
-            <a href="detalhes.php#residencia" class="highlight-img-card" style="background-image:url('imagens_arredores/Diretoria_da_Escola_Paulista_de_Medicina.jpg')">
+            <a href="#quarto" class="highlight-img-card" style="background-image:url('imagens_arredores/Diretoria_da_Escola_Paulista_de_Medicina.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Residência Médica</h3>
                     <p>Ideal para residentes da UNIFESP e Hospital São Paulo</p>
                 </div>
             </a>
-            <a href="detalhes.php#longshort" class="highlight-img-card" style="background-image:url('imagens_apartamento/sacada por do sol 20250530_175422.jpg')">
+            <a href="#studio-overview" class="highlight-img-card" style="background-image:url('imagens_apartamento/sacada por do sol 20250530_175422.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Long & Short Stay</h3>
@@ -203,29 +204,275 @@
         </div>
     </section>
 
-    <!-- Quick Info Section -->
-    <section class="quick-info">
+    <!-- Studio Overview -->
+    <section id="studio-overview" class="studio-overview">
         <div class="container">
-            <div class="quick-info-content">
-                <div class="quick-info-text">
+            <div class="overview-grid">
+                <div class="overview-content">
                     <h2>Studio Totalmente Equipado</h2>
-                    <p>Studio mobiliado 100% novo, em localização estratégica entre os principais pontos de São Paulo. Próximo ao metrô Ana Rosa (linhas azul e verde), universidades renomadas e centros culturais da economia e arte paulistana. Ideal para long stay e short stay.</p>
-                    <ul class="features-list">
-                        <li>✓ Cama queen size</li>
-                        <li>✓ Ar-condicionado</li>
-                        <li>✓ Wi-Fi de alta velocidade</li>
-                        <li>✓ Cozinha completa</li>
-                        <li>✓ Smart TV QLED 50"</li>
-                        <li>✓ Escritório compacto</li>
-                    </ul>
-                    <a href="detalhes.php" class="btn btn-outline">Ver Todas as Características</a>
+                    <p>Nosso studio mobiliado 100% novo oferece tudo que você precisa para uma estadia confortável e produtiva. Localizado em um andar alto com ampla vista, o espaço foi pensado para atender tanto quem busca lazer quanto trabalho.</p>
+                    
+                    <div class="overview-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">26</span>
+                            <span class="stat-label">Itens Cozinha</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10</span>
+                            <span class="stat-label">Itens Sala</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">9</span>
+                            <span class="stat-label">Itens Quarto</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Itens Banheiro</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="quick-info-image">
-                    <img src="imagens_apartamento/20250705_162817_cadeiras_escritorio_tv_vasos.jpg" alt="Estação de trabalho e Smart TV no studio" loading="lazy">
+                <div class="overview-image">
+                    <img src="imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg" alt="Vista panorâmica do studio" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Features Grid -->
+    <section id="caracteristicas" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Características Principais</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🛏️</div>
+                    <h3>Dormitório</h3>
+                    <ul>
+                        <li>Cama queen size com colchão de qualidade</li>
+                        <li>Roupas de cama e travesseiros novos</li>
+                        <li>Armário embutido com cabides</li>
+                        <li>Ar-condicionado split</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🍳</div>
+                    <h3>Cozinha</h3>
+                    <ul>
+                        <li>Cooktop de indução</li>
+                        <li>Forno elétrico</li>
+                        <li>Micro-ondas</li>
+                        <li>Geladeira frigobar</li>
+                        <li>Utensílios completos</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚿</div>
+                    <h3>Banheiro</h3>
+                    <ul>
+                        <li>Box de vidro</li>
+                        <li>Vaporizador</li>
+                        <li>Secador de cabelos</li>
+                        <li>Toalhas novas</li>
+                        <li>Produtos de higiene</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Tecnologia</h3>
+                    <ul>
+                        <li>Smart TV QLED 50"</li>
+                        <li>Wi-Fi de alta velocidade</li>
+                        <li>Escritório compacto</li>
+                        <li>Tomadas USB</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🪑</div>
+                    <h3>Mobiliário</h3>
+                    <ul>
+                        <li>Mesa de jantar para 2 pessoas</li>
+                        <li>Sofá confortável</li>
+                        <li>Estante para livros</li>
+                        <li>Móveis 100% novos</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌅</div>
+                    <h3>Vista e Iluminação</h3>
+                    <ul>
+                        <li>Andar alto com vista</li>
+                        <li>Iluminação natural</li>
+                        <li>Sacada privativa</li>
+                        <li>Cortinas blackout</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kitchen Details -->
+    <section id="cozinha" class="kitchen-details">
+        <div class="container">
+            <div class="kitchen-content">
+                <div class="kitchen-text">
+                    <h2>Cozinha Completa e Funcional</h2>
+                    <p>Nossa cozinha foi equipada com tudo que você precisa para preparar suas refeições. Desde o cooktop de indução até os utensílios Tramontina, tudo foi pensado para sua comodidade.</p>
+                    
+                    <div class="kitchen-features">
+                        <div class="kitchen-feature">
+                            <span class="feature-icon">🔥</span>
+                            <div>
+                                <h4>Cooktop de Indução</h4>
+                                <p>Seguro e eficiente para suas receitas</p>
+                            </div>
+                        </div>
+                        <div class="kitchen-feature">
+                            <span class="feature-icon">🍽️</span>
+                            <div>
+                                <h4>Utensílios Tramontina</h4>
+                                <p>Faqueiro completo e panelas de qualidade</p>
+                            </div>
+                        </div>
+                        <div class="kitchen-feature">
+                            <span class="feature-icon">☕</span>
+                            <div>
+                                <h4>Nespresso</h4>
+                                <p>Máquina de café para seu dia começar bem</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kitchen-gallery">
+                    <img src="imagens_apartamento/20250705_162830_cozinha_microondas_geladeira_armario_pia_cooktop.jpg" alt="Cozinha completa do studio" loading="lazy">
+                    <img src="imagens_apartamento/20250705_163405_nespresso_xicaras.jpg" alt="Máquina Nespresso" loading="lazy">
+                    <img src="imagens_apartamento/20250705_163100_utensilios-cozinha_luva-termica_escorredor_tabua_guardanapo-de-pia.jpg" alt="Acessórios da cozinha" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Station -->
+    <section id="trabalho" class="work-station">
+        <div class="container">
+            <div class="work-content">
+                <div class="work-image">
+                    <img src="imagens_apartamento/20250705_162817_cadeiras_escritorio_tv_vasos.jpg" alt="Estação de trabalho e Smart TV" loading="lazy">
+                </div>
+                <div class="work-text">
+                    <h2>Estação de Trabalho Completa</h2>
+                    <p>Ideal para quem trabalha remotamente ou precisa estudar. Nossa estação de trabalho inclui:</p>
+                    
+                    <ul class="work-features">
+                        <li>✓ Mesa ergonômica com espaço para laptop</li>
+                        <li>✓ Cadeira confortável</li>
+                        <li>✓ Wi-Fi de alta velocidade</li>
+                        <li>✓ Smart TV QLED 50" para apresentações</li>
+                        <li>✓ Tomadas próximas para carregadores</li>
+                        <li>✓ Iluminação adequada</li>
+                    </ul>
+                    
+                    <p class="work-note">Perfeito para estudantes da UNIFESP, ESPM ou profissionais que precisam de um ambiente produtivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bedroom Details -->
+    <section id="quarto" class="bedroom-details">
+        <div class="container">
+            <div class="bedroom-content">
+                <div class="bedroom-text">
+                    <h2>Quarto Confortável</h2>
+                    <p>Descanso garantido com uma super cama confortável e todos os detalhes pensados para o seu bem-estar.</p>
+                    
+                    <div class="bedroom-features">
+                        <div class="bedroom-feature">
+                            <span class="feature-icon">🛏️</span>
+                            <div>
+                                <h4>Cama Queen Size</h4>
+                                <p>Colchão Castor Revolution New Tecnopedic Double Face de alta qualidade</p>
+                            </div>
+                        </div>
+                        <div class="bedroom-feature">
+                            <span class="feature-icon">🔌</span>
+                            <div>
+                                <h4>Criado-Mudo com Tomadas</h4>
+                                <p>Tomadas próximas para carregamento de celulares e dispositivos</p>
+                            </div>
+                        </div>
+                        <div class="bedroom-feature">
+                            <span class="feature-icon">💡</span>
+                            <div>
+                                <h4>Luminárias</h4>
+                                <p>Iluminação adequada para leitura e relaxamento</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bedroom-gallery">
+                    <img src="imagens_apartamento/20250705_163251_cama.jpg" alt="Cama queen size confortável" loading="lazy">
+                    <img src="imagens_apartamento/20250705_162907_cama_janela.jpg" alt="Cama com vista da janela" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Living Area Details -->
+    <section id="sala" class="living-details">
+        <div class="container">
+            <div class="living-content">
+                <div class="living-image">
+                    <img src="imagens_apartamento/20250705_162802_mesa_pratos_qquadros_espelho_tacas_sofa_canto-alemao.jpg" alt="Mesa de mármore para refeições" loading="lazy">
+                </div>
+                <div class="living-text">
+                    <h2>Sala: Canto Alemão</h2>
+                    <p>Área perfeita para refeições íntimas e momentos especiais com nossa mesa de mármore natural.</p>
+                    
+                    <ul class="living-features">
+                        <li>✓ Mesa Tulipa Saarinen 70cm em mármore Espírito Santo</li>
+                        <li>✓ Perfeita para refeições a dois</li>
+                        <li>✓ Ideal para um café da manhã especial</li>
+                        <li>✓ Cadeiras Itália em polipropileno de design</li>
+                        <li>✓ Ambiente aconchegante e sofisticado</li>
+                        <li>✓ Iluminação natural da sacada</li>
+                    </ul>
+                    
+                    <p class="living-note">O mármore natural traz elegância e sofisticação para suas refeições, criando momentos únicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bathroom Details -->
+    <section id="banheiro" class="bathroom-details">
+        <div class="container">
+            <h2 class="section-title">Banheiro Completo</h2>
+            <div class="bathroom-grid">
+                <div class="bathroom-text">
+                    <h3>Comodidades do Banheiro</h3>
+                    <ul>
+                        <li>Box de vidro moderno</li>
+                        <li>Vaporizador para roupas</li>
+                        <li>Secador de cabelos profissional</li>
+                        <li>Toalhas novas e macias</li>
+                        <li>Produtos de higiene pessoal</li>
+                        <li>Espelho iluminado</li>
+                    </ul>
+                </div>
+                <div class="bathroom-images">
+                    <img src="imagens_apartamento/20250705_163203_banheiro_pia.jpg" alt="Banheiro completo" loading="lazy">
+                    <img src="imagens_apartamento/20250705_163156_banheiro_amenities.jpg" alt="Amenities do banheiro" loading="lazy">
+                    <img src="imagens_apartamento/20250705_163209_banheiro_chuveiro.jpg" alt="Chuveiro do banheiro" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- CTA Section -->
     <section class="cta">
@@ -287,6 +534,21 @@
     <!-- JavaScript -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/modal.js"></script>
+    <script>
+    // Smooth scroll para navegação interna
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+    </script>
     <script>
     // Controle do overlay e áudio do vídeo do hero
     const btnAssistir = document.getElementById('assistirVideo');
