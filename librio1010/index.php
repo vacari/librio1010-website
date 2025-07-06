@@ -158,35 +158,35 @@
     <!-- Destaques com imagens de fundo -->
     <section class="highlights-img">
         <div class="highlights-img-grid">
-            <a href="bairro.php" class="highlight-img-card" style="background-image:url('imagens_apartamento/20250705_162850_visao-geral_moveis_cozinha_estacao-trabalho_guarda-roupas_.jpg')">
+            <a href="bairro.php" class="highlight-img-card" style="background-image:url('imagens_condominio/fachada01 20250701_104022.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Localização Estratégica</h3>
                     <p>600m do metrô Ana Rosa, 1km do Ibirapuera, 2km da Paulista</p>
                 </div>
             </a>
-            <a href="areas-comuns.php" class="highlight-img-card" style="background-image:url('imagens_condominio/rooftop 20250121_112857.jpg')">
+            <a href="areas-comuns.php" class="highlight-img-card" style="background-image:url('imagens_condominio/rooftop piscina 20250121_112901.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Condomínio Completo</h3>
                     <p>Rooftop com piscina, academia, coworking e espaço pet</p>
                 </div>
             </a>
-            <a href="detalhes.php#estudantes" class="highlight-img-card" style="background-image:url('imagens_apartamento/20250705_162817_cadeiras_escritorio_tv_vasos.jpg')">
+            <a href="detalhes.php#estudantes" class="highlight-img-card" style="background-image:url('imagens_arredores/ESPM_Global_Hall-scaled.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Ideal para Estudantes</h3>
                     <p>Próximo à UNIFESP, ESPM e outras universidades</p>
                 </div>
             </a>
-            <a href="detalhes.php#negocios" class="highlight-img-card" style="background-image:url('imagens_apartamento/20250705_163255_mesa.jpg')">
+            <a href="detalhes.php#negocios" class="highlight-img-card" style="background-image:url('imagens_arredores/av_paulista_masp_pexels-beto-mendes-2643157-32423613.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Perfeito para Negócios</h3>
                     <p>Escritório compacto e Wi-Fi para trabalho remoto</p>
                 </div>
             </a>
-            <a href="detalhes.php#residencia" class="highlight-img-card" style="background-image:url('imagens_apartamento/20250705_163203_banheiro_pia.jpg')">
+            <a href="detalhes.php#residencia" class="highlight-img-card" style="background-image:url('imagens_arredores/Diretoria_da_Escola_Paulista_de_Medicina.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Residência Médica</h3>
