@@ -8,13 +8,15 @@
                     </a>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="index.php" class="nav-link<?php echo ($current_page == 'index') ? ' active' : ''; ?>">Home</a></li>
-                    <li><a href="detalhes.php" class="nav-link<?php echo ($current_page == 'detalhes') ? ' active' : ''; ?>">Detalhes</a></li>
-                    <li><a href="itens-equipamentos.php" class="nav-link<?php echo ($current_page == 'itens-equipamentos') ? ' active' : ''; ?>">Equipamentos</a></li>
-                    <li><a href="galeria.php" class="nav-link<?php echo ($current_page == 'galeria') ? ' active' : ''; ?>">Galeria</a></li>
-                    <li><a href="areas-comuns.php" class="nav-link<?php echo ($current_page == 'areas-comuns') ? ' active' : ''; ?>">Áreas Comuns</a></li>
-                    <li><a href="bairro.php" class="nav-link<?php echo ($current_page == 'bairro') ? ' active' : ''; ?>">O Bairro</a></li>
-                    <li><a href="contato.php" class="nav-link<?php echo ($current_page == 'contato') ? ' active' : ''; ?>">Contato</a></li>
+                    <li><a href="index.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'index') ? ' active' : ''; ?>">Home</a></li>
+                    <li><a href="itens-equipamentos.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'itens-equipamentos') ? ' active' : ''; ?>">Equipamentos</a></li>
+                    <li><a href="galeria.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'galeria') ? ' active' : ''; ?>">Galeria</a></li>
+                    <li><a href="areas-comuns.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'areas-comuns') ? ' active' : ''; ?>">Áreas Comuns</a></li>
+                    <li><a href="bairro.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'bairro') ? ' active' : ''; ?>">O Bairro</a></li>
+                    <li><a href="contato.php" class="nav-link<?php echo (isset($currentPage) && $currentPage == 'contato') ? ' active' : ''; ?>">Contato</a></li>
+                    <?php if (isset($currentPage) && $currentPage == 'index'): ?>
+                    <li><a href="#sacada" class="nav-link">Vista</a></li>
+                    <?php endif; ?>
                 </ul>
                 <div class="nav-toggle">
                     <span></span>

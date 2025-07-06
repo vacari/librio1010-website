@@ -1,63 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
-    <title>O Bairro - Vila Mariana | Studio Librio 1010</title>
-    <meta name="description" content="Conheça a Vila Mariana, localização estratégica entre Parque Ibirapuera e Av. Paulista. Próximo ao metrô Ana Rosa, UNIFESP e restaurantes da Rua Joaquim Távora.">
-    <meta name="keywords" content="vila mariana sp, metrô ana rosa, rua joaquim távora, restaurantes vila mariana, unifesp, parque ibirapuera, av paulista">
-    <meta name="author" content="Viva Vila Mariana">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://vivavilamariana.com.br/librio1010/bairro">
-    <meta property="og:title" content="O Bairro - Vila Mariana | Studio Librio 1010">
-    <meta property="og:description" content="Conheça a Vila Mariana, localização estratégica entre Parque Ibirapuera e Av. Paulista.">
-    <meta property="og:image" content="https://vivavilamariana.com.br/librio1010/imagens_apartamento/sacada por do sol 20250530_175422.jpg">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://vivavilamariana.com.br/librio1010/bairro">
-    <meta property="twitter:title" content="O Bairro - Vila Mariana | Studio Librio 1010">
-    <meta property="twitter:description" content="Conheça a Vila Mariana, localização estratégica entre Parque Ibirapuera e Av. Paulista.">
-    <meta property="twitter:image" content="https://vivavilamariana.com.br/librio1010/imagens_apartamento/sacada por do sol 20250530_175422.jpg">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="Logotipo-Librio.jpg">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+<?php 
+$pageTitle = "O Bairro - Vila Mariana | Studio Librio 1010";
+$pageDescription = "Conheça a Vila Mariana, localização estratégica entre Parque Ibirapuera e Av. Paulista. Próximo ao metrô Ana Rosa, UNIFESP e restaurantes da Rua Joaquim Távora.";
+$pageKeywords = "vila mariana sp, metrô ana rosa, rua joaquim távora, restaurantes vila mariana, unifesp, parque ibirapuera, av paulista";
+$pageImage = "https://vivavilamariana.com.br/librio1010/imagens_apartamento/sacada por do sol 20250530_175422.jpg";
+$currentPage = "bairro";
+include 'includes/head.php'; 
+?>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <a href="index.php">
-                        <img src="Logotipo-Librio-Photoroom_so_circulo.png" alt="Librio Vila Mariana" style="height:60px;vertical-align:middle;">
-                    </a>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="index.php" class="nav-link">Home</a></li>
-                    <li><a href="detalhes.php" class="nav-link">Detalhes</a></li>
-                    <li><a href="itens-equipamentos.php" class="nav-link">Equipamentos</a></li>
-                    <li><a href="galeria.php" class="nav-link">Galeria</a></li>
-                    <li><a href="areas-comuns.php" class="nav-link">Áreas Comuns</a></li>
-                    <li><a href="bairro.php" class="nav-link active">O Bairro</a></li>
-                    <li><a href="contato.php" class="nav-link">Contato</a></li>
-                </ul>
-                <div class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include 'includes/header.php'; ?>
 
     <!-- Page Header -->
     <section class="page-header">
@@ -502,13 +454,13 @@
                 </div>
                 
                 <div class="feature-card">
-                    <span class="feature-icon">👨‍💼</span>
-                    <h3>Profissionais</h3>
+                    <span class="feature-icon">💼</span>
+                    <h3>Executivos</h3>
                     <ul>
-                        <li>Viajantes de negócios</li>
-                        <li>Congressos na Paulista</li>
-                        <li>Short stay</li>
-                        <li>Conforto e praticidade</li>
+                        <li>Próximo à Paulista</li>
+                        <li>Congressos e eventos</li>
+                        <li>Conectividade urbana</li>
+                        <li>Ambiente profissional</li>
                     </ul>
                 </div>
                 
@@ -516,10 +468,10 @@
                     <span class="feature-icon">✈️</span>
                     <h3>Turistas</h3>
                     <ul>
-                        <li>Próximo ao Ibirapuera</li>
-                        <li>Fácil acesso ao centro</li>
-                        <li>Gastronomia diversa</li>
-                        <li>Experiência paulistana</li>
+                        <li>Pontos turísticos próximos</li>
+                        <li>Cultura e entretenimento</li>
+                        <li>Gastronomia diversificada</li>
+                        <li>Transporte público eficiente</li>
                     </ul>
                 </div>
             </div>
@@ -530,8 +482,8 @@
     <section class="cta">
         <div class="container">
             <div class="cta-content">
-                <h2>Venha Morar na Vila Mariana</h2>
-                <p>Experimente a localização perfeita entre Parque Ibirapuera e Av. Paulista</p>
+                <h2>Gostou da localização?</h2>
+                <p>Reserve seu studio na Vila Mariana e aproveite tudo que o bairro oferece</p>
                 <div class="cta-buttons">
                     <a href="https://wa.me/5511984807772" class="btn btn-whatsapp" target="_blank">
                         <span>📱</span> WhatsApp
@@ -539,39 +491,13 @@
                     <a href="https://airbnb.com.br/h/vivavilamariana" class="btn btn-airbnb" target="_blank">
                         <span>🏠</span> Airbnb
                     </a>
-                    <a href="contato.php" class="btn btn-secondary">Ver Localização</a>
+                    <a href="galeria.php" class="btn btn-secondary">Ver Galeria</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Librio 1010</h3>
-                    <p>Studio mobiliado na Vila Mariana<br>Rua Joaquim Távora</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p>📧 librio1010@gmail.com<br>📱 (11) 98480-7272</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Redes Sociais</h3>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/vivavilamariana/" target="_blank">📷 Instagram</a>
-                        <a href="https://airbnb.com.br/h/vivavilamariana" target="_blank">🏠 Airbnb</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="assets/js/main.js"></script>
+    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/scripts.php'; ?>
 </body>
 </html> 

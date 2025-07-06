@@ -1,194 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php 
+$pageTitle = "Contato - Studio Librio 1010 | Vila Mariana, SP";
+$pageDescription = "Entre em contato conosco e conheça o Studio Librio 1010 na Vila Mariana. Localização privilegiada na Rua Joaquim Távora.";
+$pageKeywords = "contato librio 1010, localização vila mariana, rua joaquim tavora, studio vila mariana";
+$pageImage = "https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg";
+$currentPage = "contato";
+$customCSS = '
+    .contact-section {
+        padding: 4rem 0;
+        background-color: var(--background-color);
+    }
     
-    <!-- SEO Meta Tags -->
-    <title>Contato - Studio Librio 1010 | Vila Mariana, SP</title>
-    <meta name="description" content="Entre em contato conosco e conheça o Studio Librio 1010 na Vila Mariana. Localização privilegiada na Rua Joaquim Távora.">
-    <meta name="keywords" content="contato librio 1010, localização vila mariana, rua joaquim tavora, studio vila mariana">
-    <meta name="author" content="Viva Vila Mariana">
-    <meta name="robots" content="index, follow">
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        align-items: start;
+    }
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://vivavilamariana.com.br/librio1010/contato">
-    <meta property="og:title" content="Contato - Studio Librio 1010">
-    <meta property="og:description" content="Entre em contato conosco e conheça o Studio Librio 1010 na Vila Mariana.">
-    <meta property="og:image" content="https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg">
+    .contact-info h2 {
+        margin-bottom: 2rem;
+        color: var(--text-color);
+    }
     
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://vivavilamariana.com.br/librio1010/contato">
-    <meta property="twitter:title" content="Contato - Studio Librio 1010">
-    <meta property="twitter:description" content="Entre em contato conosco e conheça o Studio Librio 1010 na Vila Mariana.">
-    <meta property="twitter:image" content="https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg">
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        background-color: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow);
+    }
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="Logotipo-Librio.jpg">
+    .contact-icon {
+        font-size: 2rem;
+        margin-right: 1rem;
+        color: var(--accent-color);
+    }
     
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    .contact-text h4 {
+        margin-bottom: 0.5rem;
+        color: var(--text-color);
+    }
     
-    <style>
-        .contact-section {
-            padding: 4rem 0;
-            background-color: var(--background-color);
-        }
-        
+    .contact-text p {
+        color: var(--text-light);
+        margin: 0;
+    }
+    
+    .contact-form {
+        background-color: white;
+        padding: 2rem;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow);
+    }
+    
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: var(--text-color);
+        font-weight: 500;
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        font-size: 1rem;
+        transition: var(--transition);
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+        outline: none;
+        border-color: var(--accent-color);
+        box-shadow: 0 0 0 3px rgba(227, 28, 95, 0.1);
+    }
+    
+    .form-group textarea {
+        resize: vertical;
+        min-height: 120px;
+    }
+    
+    .map-section {
+        padding: 4rem 0;
+        background-color: var(--light-gray);
+    }
+    
+    .map-container {
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        height: 400px;
+    }
+    
+    .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    
+    .location-info {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .location-info h3 {
+        margin-bottom: 1rem;
+        color: var(--text-color);
+    }
+    
+    .location-info p {
+        color: var(--text-light);
+        margin-bottom: 0.5rem;
+    }
+    
+    @media (max-width: 768px) {
         .contact-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: start;
-        }
-        
-        .contact-info h2 {
-            margin-bottom: 2rem;
-            color: var(--text-color);
-        }
-        
-        .contact-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            background-color: white;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-        }
-        
-        .contact-icon {
-            font-size: 2rem;
-            margin-right: 1rem;
-            color: var(--accent-color);
-        }
-        
-        .contact-text h4 {
-            margin-bottom: 0.5rem;
-            color: var(--text-color);
-        }
-        
-        .contact-text p {
-            color: var(--text-light);
-            margin: 0;
-        }
-        
-        .contact-form {
-            background-color: white;
-            padding: 2rem;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-        }
-        
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            color: var(--text-color);
-            font-weight: 500;
-        }
-        
-        .form-group input,
-        .form-group textarea,
-        .form-group select {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid var(--border-color);
-            border-radius: var(--border-radius);
-            font-size: 1rem;
-            transition: var(--transition);
-        }
-        
-        .form-group input:focus,
-        .form-group textarea:focus,
-        .form-group select:focus {
-            outline: none;
-            border-color: var(--accent-color);
-            box-shadow: 0 0 0 3px rgba(227, 28, 95, 0.1);
-        }
-        
-        .form-group textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-        
-        .map-section {
-            padding: 4rem 0;
-            background-color: var(--light-gray);
+            grid-template-columns: 1fr;
+            gap: 2rem;
         }
         
         .map-container {
-            border-radius: var(--border-radius);
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            height: 400px;
+            height: 300px;
         }
-        
-        .map-container iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        
-        .location-info {
-            margin-top: 2rem;
-            text-align: center;
-        }
-        
-        .location-info h3 {
-            margin-bottom: 1rem;
-            color: var(--text-color);
-        }
-        
-        .location-info p {
-            color: var(--text-light);
-            margin-bottom: 0.5rem;
-        }
-        
-        @media (max-width: 768px) {
-            .contact-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-            
-            .map-container {
-                height: 300px;
-            }
-        }
-    </style>
-</head>
+    }
+';
+include 'includes/head.php'; 
+?>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <a href="index.php">
-                        <img src="Logotipo-Librio-Photoroom_so_circulo.png" alt="Librio Vila Mariana" style="height:60px;vertical-align:middle;">
-                    </a>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="index.php" class="nav-link">Home</a></li>
-                    <li><a href="detalhes.php" class="nav-link">Detalhes</a></li>
-                    <li><a href="itens-equipamentos.php" class="nav-link">Equipamentos</a></li>
-                    <li><a href="galeria.php" class="nav-link">Galeria</a></li>
-                    <li><a href="areas-comuns.php" class="nav-link">Áreas Comuns</a></li>
-                    <li><a href="bairro.php" class="nav-link">O Bairro</a></li>
-                    <li><a href="contato.php" class="nav-link active">Contato</a></li>
-                </ul>
-                <div class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include 'includes/header.php'; ?>
 
     <!-- Page Header -->
     <section class="page-header">
@@ -340,34 +291,9 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Librio 1010</h3>
-                    <p>Studio mobiliado na Vila Mariana<br>Rua Joaquim Távora</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p>📧 librio1010@gmail.com<br>📱 (11) 98480-7272</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Redes Sociais</h3>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/vivavilamariana/" target="_blank">📷 Instagram</a>
-                        <a href="https://airbnb.com.br/h/vivavilamariana" target="_blank">🏠 Airbnb</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="assets/js/main.js"></script>
+    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/scripts.php'; ?>
+    
     <script>
         // Form handling
         document.getElementById('contactForm').addEventListener('submit', function(e) {
