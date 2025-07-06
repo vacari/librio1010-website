@@ -16,6 +16,38 @@ $customCSS = '
     margin-bottom: 3rem;
 }
 
+/* Layout horizontal para desktop */
+@media (min-width: 1024px) {
+    .section-content {
+        flex-direction: row;
+        align-items: center;
+        gap: 4rem;
+    }
+    
+    .section-image {
+        flex: 0 0 40%;
+    }
+    
+    .section-text {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .section-text h2 {
+        text-align: left;
+    }
+    
+    /* Seções com imagem à direita (padrão) */
+    .section-content {
+        flex-direction: row;
+    }
+    
+    /* Seções com imagem à esquerda */
+    .section-content.reverse {
+        flex-direction: row-reverse;
+    }
+}
+
 .section-image {
     width: 100%;
     max-width: 80vh;
@@ -433,7 +465,7 @@ include 'includes/head.php';
     <!-- Features Grid -->
     <section id="caracteristicas" class="features-section">
         <div class="container">
-            <div class="section-content">
+            <div class="section-content reverse">
                 <div class="section-image">
                     <img src="imagens_apartamento/20250705_162850_visao-geral_moveis_cozinha_estacao-trabalho_guarda-roupas_.jpg" alt="Visão geral do studio mobiliado" loading="lazy">
                 </div>
@@ -509,7 +541,7 @@ include 'includes/head.php';
     <!-- Work Station -->
     <section id="trabalho" class="work-station">
         <div class="container">
-            <div class="section-content">
+            <div class="section-content reverse">
                 <div class="section-image">
                     <img src="imagens_apartamento/20250705_162817_cadeiras_escritorio_tv_vasos.jpg" alt="Estação de trabalho e Smart TV" loading="lazy">
                 </div>
@@ -585,7 +617,7 @@ include 'includes/head.php';
     <!-- Living Area Details -->
     <section id="sala" class="living-details">
         <div class="container">
-            <div class="section-content">
+            <div class="section-content reverse">
                 <div class="section-image">
                     <img src="imagens_apartamento/20250705_162802_mesa_pratos_qquadros_espelho_tacas_sofa_canto-alemao.jpg" alt="Mesa de mármore para refeições" loading="lazy">
                 </div>
@@ -661,7 +693,7 @@ include 'includes/head.php';
     <!-- Balcony Views Section -->
     <section id="sacada" class="balcony-views">
         <div class="container">
-            <div class="section-content">
+            <div class="section-content reverse">
                 <div class="section-image">
                     <img src="imagens_apartamento/sacada por do sol 20250530_175422.jpg" alt="Pôr-do-sol da sacada" loading="lazy">
                 </div>
