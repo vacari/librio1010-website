@@ -245,9 +245,10 @@
                     <h3>Cozinha</h3>
                     <ul>
                         <li>Cooktop de indução</li>
-                        <li>Forno elétrico</li>
                         <li>Micro-ondas</li>
-                        <li>Geladeira frigobar</li>
+                        <li>Geladeira duplex Black Glass</li>
+                        <li>Máquina de café expresso Nespresso</li>
+                        <li>Torneira com água filtrada</li>
                         <li>Utensílios completos</li>
                     </ul>
                 </div>
@@ -483,7 +484,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Librio 1010</h3>
-                    <p>Studio mobiliado na Vila Mariana<br>R. Joaquim Távora, 768</p>
+                    <p>Studio mobiliado na Vila Mariana<br>Rua Joaquim Távora</p>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
@@ -498,7 +499,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Librio 1010. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>
                 <?php include '../versao.php'; ?>
                 <p style="font-size:0.8rem;color:#666;margin-top:0.5rem;">
                     Versão: <?php echo getVersao(); ?>

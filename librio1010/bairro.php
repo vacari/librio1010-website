@@ -72,7 +72,7 @@
         <div class="container">
             <div class="overview-content">
                 <h2>Vila Mariana - Localização Estratégica</h2>
-                <p>O Studio Librio 1010 está localizado na Rua Joaquim Távora, 768, em uma posição privilegiada da Vila Mariana. Nossa localização oferece o equilíbrio perfeito entre tranquilidade e praticidade, conectando você aos principais pontos de São Paulo.</p>
+                <p>O Studio Librio 1010 está localizado na Rua Joaquim Távora, em uma posição privilegiada da Vila Mariana. Nossa localização oferece o equilíbrio perfeito entre tranquilidade e praticidade, conectando você aos principais pontos de São Paulo.</p>
                 
                 <div class="neighborhood-stats">
                     <div class="stat-item">
@@ -191,24 +191,7 @@
                         <li>Museu-casa com jardim, programação literária e exposições</li>
                     </ul>
                 </div>
-                <div class="feature-card">
-                    <span class="feature-icon">🎬</span>
-                    <h3>Cineclube Cortina</h3>
-                    <ul>
-                        <li>R. Cel. Lisboa, 763 - Vila Mariana</li>
-                        <li>~650 m (~8 min a pé)</li>
-                        <li>Cinema independente, bar e eventos ao vivo</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <span class="feature-icon">🎨</span>
-                    <h3>Espaço Cultural Lavoura</h3>
-                    <ul>
-                        <li>R. Domingos de Morais, 1581 - Vila Mariana</li>
-                        <li>~1,2 km (~15 min a pé)</li>
-                        <li>Oficinas, feiras e programação cultural alternativa</li>
-                    </ul>
-                </div>
+
                 <div class="feature-card">
                     <span class="feature-icon">🖼️</span>
                     <h3>MAC USP - Ibirapuera</h3>
@@ -216,15 +199,6 @@
                         <li>Av. Pedro Álvares Cabral, 1301 - Ibirapuera</li>
                         <li>~1,4 km (~18 min a pé / ~3 min de bicicleta)</li>
                         <li>Importante acervo de arte contemporânea</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <span class="feature-icon">📚</span>
-                    <h3>Biblioteca do CCSP</h3>
-                    <ul>
-                        <li>Rua Vergueiro, 1000 - Liberdade</li>
-                        <li>~1,4 km (~17 min a pé ou 2 min de metrô)</li>
-                        <li>Biblioteca especializada dentro do CCSP</li>
                     </ul>
                 </div>
                 <div class="feature-card">
@@ -324,8 +298,23 @@
                         </div>
                         <div class="area-feature">
                             <span class="feature-icon">☕</span>
-                            <h4>Tayti Gelateria & Café</h4>
-                            <p>R. Joaquim Távora, 605 - 700m (9min)</p>
+                            <h4>Andaluza Sobremesas Finas</h4>
+                            <p>R. Joaquim Távora, 1066 - 300m (4min)</p>
+                        </div>
+                        <div class="area-feature">
+                            <span class="feature-icon">🍺</span>
+                            <h4>Veloso Bar</h4>
+                            <p>R. Conceição Veloso, 54 - 400m (5min)</p>
+                        </div>
+                        <div class="area-feature">
+                            <span class="feature-icon">🍻</span>
+                            <h4>Barxaréu</h4>
+                            <p>R. Joaquim Távora, 1150 - 380m (5min)</p>
+                        </div>
+                        <div class="area-feature">
+                            <span class="feature-icon">🍔</span>
+                            <h4>Taverna Medieval</h4>
+                            <p>R. Gandavo, 456 - 800m (10min)</p>
                         </div>
                     </div>
                 </div>
@@ -344,13 +333,23 @@
                     <div class="area-features">
                         <div class="area-feature">
                             <span class="feature-icon">🛒</span>
-                            <h4>Mercados</h4>
-                            <p>Diversas opções na região</p>
+                            <h4>OXXO - Joaquim Távora</h4>
+                            <p>R. Domingos de Morais, 858 - 300m (4min)</p>
+                        </div>
+                        <div class="area-feature">
+                            <span class="feature-icon">🛒</span>
+                            <h4>Carrefour Express Ana Rosa</h4>
+                            <p>R. Domingos de Morais, 604 - 400m (5min)</p>
+                        </div>
+                        <div class="area-feature">
+                            <span class="feature-icon">🛒</span>
+                            <h4>Master Supermercados</h4>
+                            <p>R. Rio Grande, 450 - 600m (8min)</p>
                         </div>
                         <div class="area-feature">
                             <span class="feature-icon">🏥</span>
-                            <h4>Farmácias</h4>
-                            <p>Rede de farmácias próximas</p>
+                            <h4>Farmácia Pague Menos</h4>
+                            <p>R. Joaquim Távora, 887 - 120m (2min)</p>
                         </div>
                         <div class="area-feature">
                             <span class="feature-icon">🏦</span>
@@ -552,7 +551,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Librio 1010</h3>
-                    <p>Studio mobiliado na Vila Mariana<br>R. Joaquim Távora, 768</p>
+                    <p>Studio mobiliado na Vila Mariana<br>Rua Joaquim Távora</p>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
@@ -567,7 +566,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Librio 1010. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>

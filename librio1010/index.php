@@ -43,7 +43,7 @@
         "email": "librio1010@gmail.com",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "R. Joaquim Távora, 768",
+            "streetAddress": "Rua Joaquim Távora",
             "addressLocality": "Vila Mariana",
             "addressRegion": "SP",
             "postalCode": "04015-011",
@@ -159,7 +159,7 @@
     <!-- Destaques com imagens de fundo -->
     <section class="highlights-img">
         <div class="highlights-img-grid">
-            <a href="bairro.php" class="highlight-img-card" style="background-image:url('imagens_condominio/fachada01 20250701_104022.jpg')">
+            <a href="bairro.php" class="highlight-img-card" style="background-image:url('imagens_condominio/fachada01 20250701_104022_sem_id.jpg')">
                 <div class="highlight-img-overlay"></div>
                 <div class="highlight-img-content">
                     <h3>Localização Estratégica</h3>
@@ -259,9 +259,10 @@
                     <h3>Cozinha</h3>
                     <ul>
                         <li>Cooktop de indução</li>
-                        <li>Forno elétrico</li>
                         <li>Micro-ondas</li>
-                        <li>Geladeira frigobar</li>
+                        <li>Geladeira duplex Black Glass</li>
+                        <li>Máquina de café expresso Nespresso</li>
+                        <li>Torneira com água filtrada</li>
                         <li>Utensílios completos</li>
                     </ul>
                 </div>
@@ -498,7 +499,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Librio 1010</h3>
-                    <p>Studio mobiliado na Vila Mariana<br>R. Joaquim Távora, 768</p>
+                    <p>Studio mobiliado na Vila Mariana<br>Rua Joaquim Távora</p>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
@@ -513,7 +514,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Librio 1010. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>
                 <?php include '../versao.php'; ?>
                 <p style="font-size:0.8rem;color:#666;margin-top:0.5rem;">
                     Versão: <?php echo getVersao(); ?>

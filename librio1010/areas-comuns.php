@@ -323,7 +323,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Librio 1010</h3>
-                    <p>Studio mobiliado na Vila Mariana<br>R. Joaquim Távora, 768</p>
+                    <p>Studio mobiliado na Vila Mariana<br>Rua Joaquim Távora</p>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
@@ -338,7 +338,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Librio 1010. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>

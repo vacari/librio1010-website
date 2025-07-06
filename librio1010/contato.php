@@ -6,7 +6,7 @@
     
     <!-- SEO Meta Tags -->
     <title>Contato - Studio Librio 1010 | Vila Mariana, SP</title>
-    <meta name="description" content="Entre em contato conosco e conheça o Studio Librio 1010 na Vila Mariana. Localização privilegiada na R. Joaquim Távora, 768.">
+    <meta name="description" content="Entre em contato conosco e conheça o Studio Librio 1010 na Vila Mariana. Localização privilegiada na Rua Joaquim Távora.">
     <meta name="keywords" content="contato librio 1010, localização vila mariana, rua joaquim tavora, studio vila mariana">
     <meta name="author" content="Viva Vila Mariana">
     <meta name="robots" content="index, follow">
@@ -209,7 +209,7 @@
                         <span class="contact-icon">📍</span>
                         <div class="contact-text">
                             <h4>Endereço</h4>
-                            <p>R. Joaquim Távora, 768<br>Vila Mariana, São Paulo - SP<br>CEP: 04015-001</p>
+                            <p>Rua Joaquim Távora<br>Vila Mariana, São Paulo - SP<br>CEP: 04015-001</p>
                         </div>
                     </div>
                     
@@ -304,7 +304,7 @@
             
             <div class="map-container">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1234567890123!2d-46.6345678!3d-23.5890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3b3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sR.%20Joaquim%20T%C3%A1vora%2C%20768%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004015-001!5e0!3m2!1spt-BR!2sbr!4v1234567890123"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1234567890123!2d-46.6345678!3d-23.5890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3b3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sRua%20Joaquim%20T%C3%A1vora%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004015-001!5e0!3m2!1spt-BR!2sbr!4v1234567890123"
                     allowfullscreen="" 
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade">
@@ -316,7 +316,7 @@
                 <p><strong>Metrô:</strong> Estação Ana Rosa (Linhas Azul e Verde) - 600m a pé</p>
                 <p><strong>Ônibus:</strong> Terminal de ônibus na estação Ana Rosa com muitas linhas</p>
                 <p><strong>Carro:</strong> Fácil acesso pelo Corredor Norte-Sul (Av. 23 de Maio), Rua Vergueiro e Rua Domingos de Morais</p>
-                <p><strong>Uber/99:</strong> Localização exata: R. Joaquim Távora, 768</p>
+                <p><strong>Uber/99:</strong> Localização exata: Rua Joaquim Távora</p>
             </div>
         </div>
     </section>
@@ -346,7 +346,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Librio 1010</h3>
-                    <p>Studio mobiliado na Vila Mariana<br>R. Joaquim Távora, 768</p>
+                    <p>Studio mobiliado na Vila Mariana<br>Rua Joaquim Távora</p>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
@@ -361,7 +361,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Librio 1010. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
