@@ -13,15 +13,25 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'flex';
         modal.classList.add('show');
         document.body.style.overflow = 'hidden';
+        
+        // Adicionar entrada no histórico para gerenciar botão back do celular
+        if (window.history && window.history.pushState) {
+            window.history.pushState({modal: true}, '', '');
+        }
     }
 
     // Função para fechar modal
-    function closeModal() {
+    function closeModal(fromHistoryBack = false) {
         modal.style.display = 'none';
         modal.classList.remove('show');
         document.body.style.overflow = 'auto';
         // Limpar src para otimizar performance
         modalImg.src = '';
+        
+        // Remover entrada do histórico se não foi chamado pelo botão back
+        if (!fromHistoryBack && window.history && window.history.state && window.history.state.modal) {
+            window.history.back();
+        }
     }
 
     // Adicionar click nas imagens da galeria
@@ -82,24 +92,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Fechar clicando em qualquer lugar do modal
+    // Fechar clicando em qualquer lugar do modal (incluindo na imagem)
     modal.addEventListener('click', function(e) {
         closeModal();
     });
 
-    // Prevenir que o modal feche quando clicar na imagem ou na caption
-    if (modalImg) {
-        modalImg.addEventListener('click', function(e) {
-            e.stopPropagation();
-        });
-    }
-
-    const modalContent = document.querySelector('.modal-content');
-    if (modalContent) {
-        modalContent.addEventListener('click', function(e) {
-            e.stopPropagation();
-        });
-    }
+    // Gerenciar botão back do celular
+    window.addEventListener('popstate', function(e) {
+        if (modal.classList.contains('show')) {
+            e.preventDefault();
+            closeModal(true); // fromHistoryBack = true
+        }
+    });
 
     // Inicializar modais
     initGalleryModal();
