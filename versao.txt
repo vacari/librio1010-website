@@ -10,4 +10,7 @@
 0010;Meta tags Twitter Cards e Schema.org aprimorados
 0011;Documentação completa atualizada com melhorias recentes
 0012;Correção scroll horizontal HOME - width 100vw para 100%
-0013;Limpeza documentação - removidos 6 arquivos redundantes sobre includes 
+0013;Limpeza documentação - removidos 6 arquivos redundantes sobre includes
+0014;Teste WhatsApp - imagem menor (3.5MB→1.5MB) panoramica marcenaria
+0015;Imagem otimizada para scraping - panoramica_scraping.jpg 
+0016;Descrição scraping alinhada com texto oficial do site 

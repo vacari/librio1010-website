@@ -14,7 +14,7 @@
     <meta property="og:url" content="<?php echo 'https://vivavilamariana.com.br' . (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/librio1010/'); ?>">
     <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Studio Librio 1010 - Vila Mariana'; ?>">
     <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Studio mobiliado na Vila Mariana, São Paulo. Próximo ao metrô Ana Rosa e Parque Ibirapuera.'; ?>">
-    <meta property="og:image" content="<?php echo isset($pageImage) ? $pageImage : 'https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg'; ?>">
+    <meta property="og:image" content="<?php echo isset($pageImage) ? $pageImage : 'https://vivavilamariana.com.br/librio1010/imagens_apartamento/panoramica_scraping.jpg'; ?>">
     <meta property="og:image:width" content="1920">
     <meta property="og:image:height" content="1080">
     <meta property="og:image:type" content="image/jpeg">
@@ -30,7 +30,7 @@
     <meta property="twitter:url" content="<?php echo 'https://vivavilamariana.com.br' . (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/librio1010/'); ?>">
     <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Studio Librio 1010 - Vila Mariana'; ?>">
     <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Studio mobiliado na Vila Mariana, São Paulo. Próximo ao metrô Ana Rosa e Parque Ibirapuera.'; ?>">
-    <meta property="twitter:image" content="<?php echo isset($pageImage) ? $pageImage : 'https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg'; ?>">
+    <meta property="twitter:image" content="<?php echo isset($pageImage) ? $pageImage : 'https://vivavilamariana.com.br/librio1010/imagens_apartamento/panoramica_scraping.jpg'; ?>">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="Logotipo-Librio.jpg">
@@ -90,7 +90,7 @@
                 "value": true
             }
         ],
-        "image": "https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg",
+        "image": "https://vivavilamariana.com.br/librio1010/imagens_apartamento/panoramica_scraping.jpg",
         "priceRange": "$$"
     }
     </script>
@@ -112,7 +112,7 @@
             "availability": "https://schema.org/InStock",
             "priceCurrency": "BRL"
         },
-        "image": "https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg"
+        "image": "https://vivavilamariana.com.br/librio1010/imagens_apartamento/panoramica_scraping.jpg"
     }
     </script>
     <?php endif; ?> 

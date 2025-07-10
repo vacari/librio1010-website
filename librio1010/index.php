@@ -2,9 +2,9 @@
 <html lang="pt-BR">
 <?php 
 $pageTitle = "Studio Librio 1010 – Viva Vila Mariana";
-$pageDescription = "Studio completo, mobiliado e pronto para morar a 3 min da UNIFESP e do metrô Ana Rosa.";
+$pageDescription = "Studio estiloso e novo com vista, na Vila Mariana, entre o Parque Ibirapuera e a Av. Paulista.";
 $pageKeywords = "studio mobiliado vila mariana, fotos detalhes apartamento, hospedagem próxima UNIFESP, aluguel temporário vila mariana, short stay paulista ibirapuera, airbnb perto metrô ana rosa, apartamento mobiliado SP congressos, moradia residência médica SP, características completas studio";
-$pageImage = "https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg";
+$pageImage = "https://vivavilamariana.com.br/librio1010/imagens_apartamento/panoramica_scraping.jpg";
 $currentPage = "home";
 $include_modal = true;
 $customCSS = '
