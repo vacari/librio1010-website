@@ -3,4 +3,11 @@
 0003;Botão Silenciar voltou for bottom - problema dobra mobile
 0004;Forçar position relative no hero-center com !important
 0005;Centralizar botão Silenciar horizontalmente no mobile
-0006;Corrigir header página Equipamentos - adicionar hambúrguer mobile 
+0006;Corrigir header página Equipamentos - adicionar hambúrguer mobile
+0007;Sistema de includes implementado - 82% redução de código
+0008;OpenGraph otimizado - corrigir tags duplicadas e URLs dinâmicas
+0009;Imagem padrão preview.jpg substituída por foto real do apartamento
+0010;Meta tags Twitter Cards e Schema.org aprimorados
+0011;Documentação completa atualizada com melhorias recentes
+0012;Correção scroll horizontal HOME - width 100vw para 100%
+0013;Limpeza documentação - removidos 6 arquivos redundantes sobre includes 
