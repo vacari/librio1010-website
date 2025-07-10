@@ -92,7 +92,7 @@ $include_gallery = true;
                 <h2>Gostou do que viu?</h2>
                 <p>Entre em contato e reserve seu studio na Vila Mariana</p>
                 <div class="cta-buttons">
-                    <a href="https://wa.me/5511984807772" class="btn btn-whatsapp" target="_blank">
+                    <a href="https://wa.me/5511984807272" class="btn btn-whatsapp" target="_blank">
                         <span>📱</span> WhatsApp
                     </a>
                     <a href="https://airbnb.com.br/h/vivavilamariana" class="btn btn-airbnb" target="_blank">

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <?php 
-$pageTitle = "Studio Mobiliado Vila Mariana - Fotos, Detalhes e Características Completas | Librio 1010";
-$pageDescription = "Studio mobiliado 100% novo na Vila Mariana com todas as fotos, detalhes e características. Cozinha completa, Smart TV 50\", estação de trabalho, cama queen, ar-condicionado. Próximo ao metrô Ana Rosa e Ibirapuera. Long stay e short stay.";
+$pageTitle = "Studio Librio 1010 – Viva Vila Mariana";
+$pageDescription = "Studio completo, mobiliado e pronto para morar a 3 min da UNIFESP e do metrô Ana Rosa.";
 $pageKeywords = "studio mobiliado vila mariana, fotos detalhes apartamento, hospedagem próxima UNIFESP, aluguel temporário vila mariana, short stay paulista ibirapuera, airbnb perto metrô ana rosa, apartamento mobiliado SP congressos, moradia residência médica SP, características completas studio";
-$pageImage = "https://vivavilamariana.com.br/librio1010/assets/images/hero-studio.jpg";
+$pageImage = "https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg";
 $currentPage = "home";
 $include_modal = true;
 $customCSS = '
@@ -50,8 +50,8 @@ $customCSS = '
 
 .section-image {
     width: 100%;
-    max-width: 80vh;
-    max-height: 80vh;
+    max-width: 88vh;
+    max-height: 88vh;
     margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
@@ -65,8 +65,8 @@ $customCSS = '
         object-fit: cover;
         display: block;
         transition: transform 0.3s ease;
-        max-height: 80vh;
-        max-width: 80vh;
+        max-height: 88vh;
+        max-width: 88vh;
         margin: 0 auto;
     }
 
@@ -735,7 +735,7 @@ include 'includes/head.php';
                 <h2>Pronto para sua próxima estadia?</h2>
                 <p>Entre em contato conosco e reserve seu studio na Vila Mariana</p>
                 <div class="cta-buttons">
-                    <a href="https://wa.me/5511984807772" class="btn btn-whatsapp" target="_blank">
+                    <a href="https://wa.me/5511984807272" class="btn btn-whatsapp" target="_blank">
                         <span>📱</span> WhatsApp
                     </a>
                     <a href="https://airbnb.com.br/h/vivavilamariana" class="btn btn-airbnb" target="_blank">

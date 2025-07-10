@@ -48,7 +48,10 @@ mkdir "%TARGET_DIR%"
 echo.
 
 echo Copiando todo o projeto...
-xcopy "%SOURCE_ROOT%*" "%TARGET_ROOT%\" /E /I /Y /H
+echo .git\> exclude_temp.txt
+echo .git>> exclude_temp.txt
+xcopy "%SOURCE_ROOT%*" "%TARGET_ROOT%\" /E /I /Y /H /EXCLUDE:exclude_temp.txt
+del exclude_temp.txt
 
 echo.
 echo ========================================

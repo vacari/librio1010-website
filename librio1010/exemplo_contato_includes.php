@@ -36,7 +36,7 @@ Mensagem: ${message}`;
     
     // Encode message for WhatsApp
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappUrl = `https://wa.me/5511984807772?text=${encodedMessage}`;
+            const whatsappUrl = `https://wa.me/5511984807272?text=${encodedMessage}`;
     
     // Open WhatsApp
     window.open(whatsappUrl, "_blank");
@@ -130,9 +130,9 @@ Mensagem: ${message}`;
                 <h2>Reserve Agora</h2>
                 <p>Entre em contato e garanta sua estadia no Studio Librio 1010</p>
                 <div class="cta-buttons">
-                    <a href="https://wa.me/5511984807772" class="btn btn-whatsapp" target="_blank">
-                        <span>📱</span> WhatsApp
-                    </a>
+                            <a href="https://wa.me/5511984807272" class="btn btn-whatsapp" target="_blank">
+            <span>📱</span> WhatsApp
+        </a>
                     <a href="https://airbnb.com.br/h/vivavilamariana" class="btn btn-airbnb" target="_blank">
                         <span>🏠</span> Airbnb
                     </a>

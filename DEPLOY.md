@@ -1,5 +1,26 @@
 # 🚀 Guia de Deploy - Librio 1010 Website
 
+## 🏗️ Estrutura do Ambiente de Produção
+
+### Configuração do Servidor Apache (Windows)
+- **Root físico do Apache**: `D:\Apache24\htdocs`
+- **Apontamento do vhosts**: `D:\Apache24\htdocs\www\vivavilamariana`
+- **URL principal**: `https://vivavilamariana.com.br/` 
+- **Projeto Librio1010**: `D:\Apache24\htdocs\www\vivavilamariana\librio1010`
+- **URL do Librio1010**: `https://vivavilamariana.com.br/librio1010/`
+
+### Redirecionamento Temporário
+O site principal (`https://vivavilamariana.com.br/`) **redireciona automaticamente** para o Librio1010 (`https://vivavilamariana.com.br/librio1010/`) pois é o único studio disponível no momento.
+
+```apache
+# .htaccess na raiz (D:\Apache24\htdocs\www\vivavilamariana\.htaccess)
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /librio1010/ [R=302,L]
+```
+
+**Nota**: Usa redirecionamento 302 (temporário) pois futuramente haverá outros studios e uma landing page principal.
+
 ## 📋 Estratégia de Deploy
 
 **Recomendação: Desenvolvimento Local + Deploy Automatizado**

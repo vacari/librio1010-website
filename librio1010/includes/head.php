@@ -11,16 +11,25 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://vivavilamariana.com.br/librio1010/<?php echo isset($currentPage) && $currentPage === 'index' ? '' : $currentPage; ?>">
+    <meta property="og:url" content="<?php echo 'https://vivavilamariana.com.br' . (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/librio1010/'); ?>">
     <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Studio Librio 1010 - Vila Mariana'; ?>">
-    <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Studio mobiliado na Vila Mariana, São Paulo.'; ?>">
+    <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Studio mobiliado na Vila Mariana, São Paulo. Próximo ao metrô Ana Rosa e Parque Ibirapuera.'; ?>">
     <meta property="og:image" content="<?php echo isset($pageImage) ? $pageImage : 'https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg'; ?>">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="1080">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="Studio mobiliado Vila Mariana - Quarto com mesa, sofá e janela">
+    <meta property="og:site_name" content="Librio 1010 - Studio Vila Mariana">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- WhatsApp specific -->
+    <meta property="og:updated_time" content="<?php echo date('c'); ?>">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://vivavilamariana.com.br/librio1010/<?php echo isset($currentPage) && $currentPage === 'index' ? '' : $currentPage; ?>">
+    <meta property="twitter:url" content="<?php echo 'https://vivavilamariana.com.br' . (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/librio1010/'); ?>">
     <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Studio Librio 1010 - Vila Mariana'; ?>">
-    <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Studio mobiliado na Vila Mariana, São Paulo.'; ?>">
+    <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Studio mobiliado na Vila Mariana, São Paulo. Próximo ao metrô Ana Rosa e Parque Ibirapuera.'; ?>">
     <meta property="twitter:image" content="<?php echo isset($pageImage) ? $pageImage : 'https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg'; ?>">
     
     <!-- Favicon -->
@@ -44,7 +53,7 @@
         "name": "Studio Librio 1010",
         "description": "Studio mobiliado novo na Vila Mariana, São Paulo",
         "url": "https://vivavilamariana.com.br/librio1010",
-        "telephone": "+5511984807772",
+        "telephone": "+5511984807272",
         "email": "librio1010@gmail.com",
         "address": {
             "@type": "PostalAddress",
@@ -81,7 +90,7 @@
                 "value": true
             }
         ],
-        "image": "https://vivavilamariana.com.br/librio1010/assets/images/hero-studio.jpg",
+        "image": "https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg",
         "priceRange": "$$"
     }
     </script>

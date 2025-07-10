@@ -485,7 +485,7 @@ include 'includes/head.php';
                 <h2>Gostou da localização?</h2>
                 <p>Reserve seu studio na Vila Mariana e aproveite tudo que o bairro oferece</p>
                 <div class="cta-buttons">
-                    <a href="https://wa.me/5511984807772" class="btn btn-whatsapp" target="_blank">
+                    <a href="https://wa.me/5511984807272" class="btn btn-whatsapp" target="_blank">
                         <span>📱</span> WhatsApp
                     </a>
                     <a href="https://airbnb.com.br/h/vivavilamariana" class="btn btn-airbnb" target="_blank">

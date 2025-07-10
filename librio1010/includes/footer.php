@@ -17,6 +17,13 @@
                         <a href="https://airbnb.com.br/h/vivavilamariana" target="_blank">🏠 Airbnb</a>
                     </div>
                 </div>
+                <div class="footer-section">
+                    <h3>Downloads</h3>
+                    <div class="download-links">
+                        <a href="imagens_apartamento/2025_Flyer_Librio.jpg" target="_blank" download>📄 Baixe o Flyer do Studio</a>
+                        <a href="https://wa.me/?text=Conheça o Studio Librio 1010 na Vila Mariana! https://vivavilamariana.com.br/librio1010/" target="_blank">📱 Compartilhar no WhatsApp</a>
+                    </div>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Viva Vila Mariana. Todos os direitos reservados.</p>

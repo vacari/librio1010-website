@@ -582,6 +582,22 @@ p {
     color: var(--accent-color);
 }
 
+.download-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.download-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.download-links a:hover {
+    color: var(--accent-color);
+}
+
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding-top: 1rem;
@@ -1516,24 +1532,10 @@ html {
 }
 
 .modal-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px 20px;
-    border-radius: var(--border-radius);
-    font-size: 1.1rem;
-    max-width: 80%;
-    text-align: center;
+    display: none !important;
 }
 
-@media (max-width: 768px) {
-    .modal-caption {
-        display: none !important;
-    }
-}
+
 
 /* Modal animations */
 @keyframes modalFadeIn {
@@ -1582,9 +1584,7 @@ html {
         order: 1;
     }
     
-    .modal-caption {
-        display: none !important;
-    }
+
 }
 
 /* Gallery Animations */

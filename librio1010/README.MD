@@ -26,7 +26,7 @@ Será também preciso criar links para:
 Airbnb: https://airbnb.com.br/h/vivavilamariana
 instagram: @vivavilamariana (https://www.instagram.com/vivavilamariana/)
 e-mail: librio1010@gmail.com
-whatsapp: +55 11 98480-7772
+whatsapp: +55 11 98480-7272
 
 🧾 Briefing para site de hospedagem (README)
 

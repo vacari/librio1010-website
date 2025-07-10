@@ -6,6 +6,8 @@ $pageDescription = "Galeria completa de fotos do studio mobiliado na Vila Marian
 $pageKeywords = "galeria studio vila mariana, fotos apartamento mobiliado, imagens studio SP, fotos condomínio vila mariana";
 $pageImage = "https://vivavilamariana.com.br/librio1010/imagens_apartamento/20250705_162901_panoramica_quarto_mesa_sofa_janela.jpg";
 $currentPage = "galeria";
+$include_modal = true;
+$include_gallery = true;
 include 'includes/head.php'; 
 ?>
 <body>
@@ -423,7 +425,7 @@ include 'includes/head.php';
                 <h2>Gostou do que viu?</h2>
                 <p>Entre em contato e reserve seu studio na Vila Mariana</p>
                 <div class="cta-buttons">
-                    <a href="https://wa.me/5511984807772" class="btn btn-whatsapp" target="_blank">
+                    <a href="https://wa.me/5511984807272" class="btn btn-whatsapp" target="_blank">
                         <span>📱</span> WhatsApp
                     </a>
                     <a href="https://airbnb.com.br/h/vivavilamariana" class="btn btn-airbnb" target="_blank">
